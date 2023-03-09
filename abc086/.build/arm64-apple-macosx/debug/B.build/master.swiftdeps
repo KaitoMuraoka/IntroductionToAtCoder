@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "0861fddced9db1ddc730f9fd6f4bf0d1e90c7bf5956174a023f41be94b8e2645"
+build_start_time: [1678324367, 311949968]
+build_end_time: [1678324370, 399766921]
+inputs:
+  "/Users/muraoka/personalDevelopment/\u7AF6\u6280\u30D5\u309A\u30ED\u30AF\u3099\u30E9\u30DF\u30F3\u30AF\u3099/IntroductionToAtCoder/abc086/Sources/B/main.swift": [1678323987, 110234260]
