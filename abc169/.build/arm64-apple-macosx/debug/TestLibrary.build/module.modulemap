@@ -1,0 +1,4 @@
+module TestLibrary {
+    header "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc169/.build/arm64-apple-macosx/debug/TestLibrary.build/TestLibrary-Swift.h"
+    requires objc
+}

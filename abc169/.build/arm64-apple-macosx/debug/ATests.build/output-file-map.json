@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc169/.build/arm64-apple-macosx/debug/ATests.build/master.swiftdeps"
+  },
+  "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc169/Tests/ATests/ATests.swift": {
+    "dependencies": "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc169/.build/arm64-apple-macosx/debug/ATests.build/ATests.d",
+    "object": "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc169/.build/arm64-apple-macosx/debug/ATests.build/ATests.swift.o",
+    "swiftmodule": "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc169/.build/arm64-apple-macosx/debug/ATests.build/ATests~partial.swiftmodule",
+    "swift-dependencies": "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc169/.build/arm64-apple-macosx/debug/ATests.build/ATests.swiftdeps"
+  }
+}
