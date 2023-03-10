@@ -1,0 +1,584 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ABC083PackageTests.xctest/Contents/MacOS/ABC083PackageTests",
+      "productName" : "ABC083PackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.A-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Sources/A/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "A",
+      "moduleOutputPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/A.build/A.swiftmodule",
+      "objects" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/A.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/A.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/A.build/A.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Sources/A/main.swift"
+      ],
+      "tempsPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/A.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ATests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/ATests/ATests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/A"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ATests",
+      "moduleOutputPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ATests.swiftmodule",
+      "objects" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ATests.build/ATests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ATests.build/ATests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ATests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/ATests/ATests.swift"
+      ],
+      "tempsPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ATests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.B-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Sources/B/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "B",
+      "moduleOutputPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/B.build/B.swiftmodule",
+      "objects" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/B.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/B.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/B.build/B.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Sources/B/main.swift"
+      ],
+      "tempsPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/B.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/BTests/BTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/B"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BTests",
+      "moduleOutputPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/BTests.swiftmodule",
+      "objects" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/BTests.build/BTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/BTests.build/BTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/BTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/BTests/BTests.swift"
+      ],
+      "tempsPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/BTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.C-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Sources/C/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "C",
+      "moduleOutputPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/C.build/C.swiftmodule",
+      "objects" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/C.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/C.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/C.build/C.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Sources/C/main.swift"
+      ],
+      "tempsPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/C.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/CTests/CTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/C"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CTests",
+      "moduleOutputPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/CTests.swiftmodule",
+      "objects" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/CTests.build/CTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/CTests.build/CTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/CTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/CTests/CTests.swift"
+      ],
+      "tempsPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/CTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.D-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Sources/D/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "D",
+      "moduleOutputPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/D.build/D.swiftmodule",
+      "objects" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/D.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/D.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/D.build/D.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Sources/D/main.swift"
+      ],
+      "tempsPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/D.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/DTests/DTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/D"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DTests",
+      "moduleOutputPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/DTests.swiftmodule",
+      "objects" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/DTests.build/DTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/DTests.build/DTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/DTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/DTests/DTests.swift"
+      ],
+      "tempsPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/DTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TestLibrary-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/TestLibrary/TestLibrary.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TestLibrary",
+      "moduleOutputPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.swiftmodule",
+      "objects" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.build/TestLibrary.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.build/TestLibrary-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.build/TestLibrary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/Tests/TestLibrary/TestLibrary.swift"
+      ],
+      "tempsPath" : "/Users/muraoka/personalDevelopment/競技プログラミング/IntroductionToAtCoder/abc083/.build/arm64-apple-macosx/debug/TestLibrary.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

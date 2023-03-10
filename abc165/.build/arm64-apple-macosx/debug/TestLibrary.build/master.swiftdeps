@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "f4781d20698760efd103319d72bd89b229f4b92662431ed130acdb55254702e3"
+build_start_time: [1678413811, 373029947]
+build_end_time: [1678413818, 852309942]
+inputs:
+  ? "/Users/muraoka/personalDevelopment/\u7AF6\u6280\u30D5\u309A\u30ED\u30AF\u3099\u30E9\u30DF\u30F3\u30AF\u3099/IntroductionToAtCoder/abc165/Tests/TestLibrary/TestLibrary.swift"
+  : [1678412841, 580244541]
